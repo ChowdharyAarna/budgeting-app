@@ -1,0 +1,20 @@
+{
+    "vendor": "Costco Wholesale",
+    "date": "2024-05-18",
+    "items": [
+        {
+            "name": "Whole Cheese",
+            "cost": 318.4,
+            "category": "Other"
+        },
+        {
+            "name": "Whole Pepperoni",
+            "cost": 99.5,
+            "category": "Other"
+        }
+    ],
+    "subtotal": 417.9,
+    "taxes": 43.04,
+    "fees": 0.0,
+    "total": 460.94
+}

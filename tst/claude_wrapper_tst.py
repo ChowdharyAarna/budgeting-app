@@ -1,4 +1,4 @@
-from src.backend.receipt_lambda.claude_wrapper import ClaudeWrapper
+from src.backend.claude_wrapper import ClaudeWrapper
 from dotenv import load_dotenv
  
 
@@ -14,6 +14,7 @@ if __name__ == "__main__":
     # Initialize wrapper
     load_dotenv()
     claude = ClaudeWrapper()  # Uses ANTHROPIC_API_KEY env var
+    print(f"api key: {claude.api_key}\n")
 
     response_1 = claude.read_receipt(encode_image("tst/receipt_photos/picture_1.jpeg"))
 
